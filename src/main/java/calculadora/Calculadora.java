@@ -5,10 +5,18 @@ public class Calculadora {
     private double valorA;
     private double valorB;
 
+    /**
+     * Construtor sem argumento.
+     */
     public Calculadora() {
-        this(0, 0);
+        this(0.0, 0.0);
     }
 
+    /**
+     * Construtor com argumento.
+     * @param valorA Um valor real.
+     * @param valorB Um valor real.
+     */
     public Calculadora(double valorA, double valorB) {
         setValorA(valorA);
         setValorB(valorB);
@@ -30,18 +38,34 @@ public class Calculadora {
         this.valorB = valorB;
     }
 
-    public double getSoma() {
+    /**
+     * Realiza a adição.
+     * @return Um valor real.
+     */
+    public double getAdicao() {
         return (getValorA() + getValorB());
     }
 
+    /**
+     * Realiza a subtração
+     * @return Um valor real.
+     */
     public double getSubtracao() {
         return (getValorA() - getValorB());
     }
 
+    /**
+     * Realiza o produto.
+     * @return Um valor real.
+     */
     public double getProduto() {
         return (getValorA() * getValorB());
     }
 
+    /**
+     * Realiza a divisão.
+     * @return Um valor real.
+     */
     public double getDivisao() {
         return (getValorA() / getValorB());
     }

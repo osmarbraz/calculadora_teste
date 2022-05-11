@@ -16,7 +16,7 @@ public class Principal {
                     calculadora.setValorB(Double.parseDouble(JOptionPane.showInputDialog("Digite o valor B")));
                     break;
                 case 2:
-                    JOptionPane.showMessageDialog(null, "Soma: " + calculadora.getSoma());
+                    JOptionPane.showMessageDialog(null, "Soma: " + calculadora.getAdicao());
                     break;
                 case 3:
                     JOptionPane.showMessageDialog(null, "Subtração: " + calculadora.getSubtracao());
@@ -27,7 +27,6 @@ public class Principal {
                 case 5:
                     JOptionPane.showMessageDialog(null, "Divisão: " + calculadora.getDivisao());
                     break;
-
             }
         }
     }
