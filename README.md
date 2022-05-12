@@ -14,3 +14,8 @@ Pipeline
 - hmg - Compilação, Testes, Análise Código, Cobertura Código
 - prd - Empacotamento
 
+<br>
+- O projeto foi desenvolvido no NetBeans deve ser chamado calculadora_teste.<br>
+- Utiliza o Apache Maven para a automatização da construção.<br>
+- A pasta test contêm os testes unitários do projeto utilizando JUnit 4.<br>
+- A cobertura do código é realizada através do JaCoCo.<br>
