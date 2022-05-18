@@ -1,5 +1,11 @@
 package calculadora;
 
+/**
+ * Classe que simular uma calculadora.
+ * 
+ * Realiza operações matemáticas com 2 números reais.
+ * @author osmar
+ */
 public class Calculadora {
 
     private double valorA;
