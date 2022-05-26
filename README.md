@@ -10,9 +10,9 @@ Utiliza 3 ambientes:
 - prd - Produção
 
 Pipeline 
-- dev - Compilação 
-- hmg - Compilação, Testes, Análise Código, Cobertura Código
-- prd - Empacotamento
+- dev - Compilação e testes.
+- hmg - Análise e cobertura de código.
+- prd - Empacotamento.
 
 <br>
 - O projeto foi desenvolvido no NetBeans deve ser chamado calculadora_teste.<br>
