@@ -29,6 +29,9 @@ public class Principal {
                 case 5:
                     JOptionPane.showMessageDialog(null, "Divisão: " + calculadora.getDivisao());
                     break;
+                case 9: 
+                    JOptionPane.showMessageDialog(null, "Saindo do sistema");
+                    break;                
                 default:
                     JOptionPane.showMessageDialog(null, "Alternativa inválida!");
                     break;                    
