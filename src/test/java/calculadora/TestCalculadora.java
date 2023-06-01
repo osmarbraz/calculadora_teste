@@ -6,18 +6,18 @@ import org.junit.Test;
 public class TestCalculadora {
     
     @Test
-    public void testGetAdicao() {
+    public void testGetSoma() {
         Calculadora calculadora = new Calculadora(4.0, 2.0);
         double retornoEsperado = 6.0;
-        double retornoFeito = calculadora.getAdicao();
+        double retornoFeito = calculadora.getSoma();
         assertEquals(retornoEsperado, retornoFeito, 0);
     }
 
     @Test
-    public void testGetSubtracao() {
+    public void testGetDiferenca() {
         Calculadora calculadora = new Calculadora(4.0, 2.0);
         double retornoEsperado = 2.0;
-        double retornoFeito = calculadora.getSubtracao();
+        double retornoFeito = calculadora.getDiferenca();
         assertEquals(retornoEsperado, retornoFeito, 0);
     }
 }

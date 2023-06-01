@@ -11,23 +11,23 @@ public class Principal {
         String opcao = "";
         Calculadora calculadora = new Calculadora();
         while (!opcao.equals("9")) {
-            opcao = JOptionPane.showInputDialog("1 - Leitura \n2 - Adição \n3 - Subtração \n4 - Produto \n5 - Divisão \n9 - Sair");
+            opcao = JOptionPane.showInputDialog("1 - Leitura \n2 - Adição \n3 - Subtração \n4 - Multiplicação \n5 - Divisão \n9 - Sair");
             switch (Integer.parseInt(opcao)) {
                 case 1:
                     calculadora.setValorA(Double.parseDouble(JOptionPane.showInputDialog("Digite o valor A")));
                     calculadora.setValorB(Double.parseDouble(JOptionPane.showInputDialog("Digite o valor B")));
                     break;
                 case 2:
-                    JOptionPane.showMessageDialog(null, "Adilção: " + calculadora.getAdicao());
+                    JOptionPane.showMessageDialog(null, "Soma: " + calculadora.getSoma());
                     break;
                 case 3:
-                    JOptionPane.showMessageDialog(null, "Subtração: " + calculadora.getSubtracao());
+                    JOptionPane.showMessageDialog(null, "Diferença: " + calculadora.getDiferenca());
                     break;
                 case 4:
                     JOptionPane.showMessageDialog(null, "Produto: " + calculadora.getProduto());
                     break;
                 case 5:
-                    JOptionPane.showMessageDialog(null, "Divisão: " + calculadora.getDivisao());
+                    JOptionPane.showMessageDialog(null, "Quociente: " + calculadora.getQuociente());
                     break;
                 case 9: 
                     JOptionPane.showMessageDialog(null, "Saindo do sistema");
