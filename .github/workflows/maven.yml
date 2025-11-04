@@ -36,7 +36,6 @@ jobs:
     environment: 
       name: hmg
     needs: build-dev
-    name: build-hmg - Análise do código
     steps:    
     # Utiliza a action checkout para fazer o git clone no runner
     - name: Realiza o checkout do repositório
